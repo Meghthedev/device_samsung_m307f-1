@@ -24,6 +24,9 @@ DEVICE_PATH := device/samsung/m307f
 ## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
+# Target OTA Assert Devices
+TARGET_OTA_ASSERT_DEVICE := m307f,m30s,m30sdd
+
 ## Kernel
 TARGET_KERNEL_CONFIG := m307f_defconfig
 
