@@ -22,8 +22,8 @@ fi
 
 set -e
 
-export DEVICE=gta4xl
-export DEVICE_COMMON=gta4xl-common
+export DEVICE=m307f
+export DEVICE_COMMON=m30s-common
 export VENDOR=samsung
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
